@@ -20,8 +20,7 @@ function App() {
   return (
  <>
 
-    <CanvaEmbed/>
-    <br/>
+   
       <BrowserRouter>
         <Navbar />
         <Routes path="/" element={<Layout />}>
@@ -33,6 +32,9 @@ function App() {
         <Route path="/Splash" element={<Splash />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>
+  <br/>
+   <CanvaEmbed/>
+    
 <br/>
 <Footer/>
       </BrowserRouter>
