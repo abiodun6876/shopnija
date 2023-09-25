@@ -33,7 +33,8 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
       </Routes>
  
-    
+     <br/>
+   <CanvaEmbed/>
 <br/>
 <Footer/>
       </BrowserRouter>
