@@ -14,11 +14,14 @@ import Fashion from './components/Fashion';
 import HealthBeauty from './components/Health';
 import Footer from './components/Footer';
 import Mainscreen from './components/Mainscreen';
-
+import CanvaEmbed from './components/CanvaEmbed';
 
 function App() {
   return (
  <>
+
+    <CanvaEmbed/>
+    <br/>
       <BrowserRouter>
         <Navbar />
         <Routes path="/" element={<Layout />}>
