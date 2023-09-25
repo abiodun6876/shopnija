@@ -32,8 +32,7 @@ function App() {
         <Route path="/Splash" element={<Splash />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>
-  <br/>
-   <CanvaEmbed/>
+ 
     
 <br/>
 <Footer/>
