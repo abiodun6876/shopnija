@@ -5,6 +5,8 @@ import ProductCard from './ProductCard'; // Create a ProductCard component
 import SearchBar from './SearchBar'; // Import the SearchBar component
 import './SearchBar.css'; // Create a CSS file for styling
 import CategoryCard from './CategoryCard'; // Create a CategoryCard component
+import CanvaEmbed from '../components/CanvaEmbed';
+
 
 import './CategoryCard.css'; // Import the CSS file
 
@@ -195,6 +197,8 @@ function Mainscreen() {
 
   return (
     <>
+      <br/>
+   <CanvaEmbed/>
     <br/>
       <SearchBar onSearch={handleSearch} />
       <br />
