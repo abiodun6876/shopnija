@@ -1,0 +1,8 @@
+/* ProductList.css */
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid with 6 columns */
+    gap: 20px;
+  }
+  
+ 

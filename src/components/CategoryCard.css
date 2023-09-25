@@ -1,0 +1,58 @@
+/* CategoryCard.css */
+.category-card {
+    width: calc(33.33333% - 20px); /* 3 columns per row for larger screens */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    transition: box-shadow 0.3s, transform 0.3s;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box; /* Ensure padding and border are included in the width calculation */
+  }
+  
+  @media (max-width: 768px) {
+    /* For screens with a maximum width of 768px (e.g., tablets) */
+    .category-card {
+      width: calc(50% - 20px); /* 2 columns per row for tablets */
+    }
+    .title {
+        font-size: 10px; /* Reduce the font size for small mobile devices */
+      }
+
+      
+  }
+  
+  @media (max-width: 576px) {
+    /* For screens with a maximum width of 576px (e.g., small mobile devices) */
+    .category-card {
+      width: calc(33.33333% - 20px); /* 3 columns per row for small mobile devices */
+    }
+
+    .title {
+        font-size: 10px; /* Reduce the font size for small mobile devices */
+      }
+  }
+  
+  .category-link {
+    text-decoration: none;
+    color: #333;
+ 
+  }
+  
+  .category-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .title {
+    margin-top: 10px;
+    font-size: 10px;
+  }
+  
+  .category-card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+  }
+  
